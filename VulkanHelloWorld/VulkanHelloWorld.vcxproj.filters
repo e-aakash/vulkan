@@ -14,6 +14,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\shader">
+      <UniqueIdentifier>{ecd3e5ed-8d79-4a55-8e36-46bad8485d6c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -22,5 +25,22 @@
     <ClCompile Include="tutorial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\compile.bat">
+      <Filter>Source Files\shader</Filter>
+    </None>
+    <None Include="shaders\frag.spv">
+      <Filter>Source Files\shader</Filter>
+    </None>
+    <None Include="shaders\shader.frag">
+      <Filter>Source Files\shader</Filter>
+    </None>
+    <None Include="shaders\shader.vert">
+      <Filter>Source Files\shader</Filter>
+    </None>
+    <None Include="shaders\vert.spv">
+      <Filter>Source Files\shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
